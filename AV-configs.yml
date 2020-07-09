@@ -289,55 +289,37 @@ records:
     content: "  ansible\r\n"
   - delay: 300
     content: "0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.\r\n"
-  - delay: 500
+  - delay: 1021
     content: "(Reading database ... \r"
   - delay: 80
-    content: "(Reading database ... 5%\r"
-  - delay: 80
-    content: (Reading database ... 10%\r"
-  - delay: 80
-    content: (Reading database ... 15%\r"
-  - delay: 80
-    content: (Reading database ... 20%\r"
-  - delay: 80
-    content: (Reading database ... 25%\r"
-  - delay: 80
-    content: (Reading database ... 30%\r"
-  - delay: 80
-    content: (Reading database ... 35%\r"
-  - delay: 80
-    content: (Reading database ... 40%\r"
-  - delay: 80
-    content: (Reading database ... 45%\r"
-  - delay: 80
-    content: (Reading database ... 50%\r"
-  - delay: 80
+    content: "(Reading database ... 5%\r(Reading database ... 10%\r(Reading database ... 15%\r(Reading database ... 20%\r(Reading database ... 25%\r(Reading database ... 30%\r(Reading database ... 35%\r(Reading database ... 40%\r(Reading database ... 45%\r(Reading database ... 50%\r"
+  - delay: 200
     content: "(Reading database ... 55%\r"
-  - delay: 80
+  - delay: 200
     content: "(Reading database ... 60%\r"
-  - delay: 80
+  - delay: 200
     content: "(Reading database ... 65%\r"
-  - delay: 80
+  - delay: 200
     content: "(Reading database ... 70%\r"
-  - delay: 80
+  - delay: 200
     content: "(Reading database ... 75%\r"
-  - delay: 80
+  - delay: 200
     content: "(Reading database ... 80%\r"
-  - delay: 80
+  - delay: 200
     content: "(Reading database ... 85%\r"
-  - delay: 80
+  - delay: 200
     content: "(Reading database ... 90%\r"
-  - delay: 80
+  - delay: 200
     content: "(Reading database ... 95%\r"
-  - delay: 80
+  - delay: 200
     content: "(Reading database ... 100%\r"
-  - delay: 500
+  - delay: 400
     content: "(Reading database ... Done\r\n"
-  - delay: 80
+  - delay: 600
     content: "Setting up ansible (2.7.7+dfsg-1) ...\r\n\r\n"
-  - delay: 600
+  - delay: 1000
     content: "\e[00;32mpi@raspberrypi\e[00m:\e[00;34m~ $\e[00m \e[0;37m"
-  - delay: 600
+  - delay: 832
     content: "c"
   - delay: 120
     content: "u"
@@ -352,7 +334,7 @@ records:
   - delay: 100
     content: "O"
   - delay: 600
-    content: " https://raw.githubusercontent.com/robinmordasiewicz/AV-raspi-config/master/raspi-config.yml\e[00m\n"
+    content: " https://raw.githubusercontent.com/robinmordasiewicz/PI-Atem-Companion/master/raspi-config.yml\e[00m\n"
   - delay: 10
     content: "\r  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current "
   - delay: 10
@@ -439,9 +421,37 @@ records:
     content: "\rLanguage Code:  [en_GB.UTF-8]: \e[0;37men_US.UTF-\e[0m"
   - delay: 250
     content: "\rLanguage Code:  [en_GB.UTF-8]: \e[0;37men_US.UTF-8\e[0m"
-  - delay: 600
+  - delay: 400
+    content: "\r\n\e[1;37mAtem Mini\e[0m IP: [192.168.2.240]:                 <--- Your ATEM Mini IP here"
+  - delay: 1500
+    content: "\r\e[1;37mAtem Mini\e[0m IP: [192.168.2.240]: \e[0;37m1\e[0m               <--- Your ATEM Mini IP here"
+  - delay: 180
+    content: "\r\e[1;37mAtem Mini\e[0m IP: [192.168.2.240]: \e[0;37m19\e[0m              <--- Your ATEM Mini IP here"
+  - delay: 200
+    content: "\r\e[1;37mAtem Mini\e[0m IP: [192.168.2.240]: \e[0;37m192.\e[0m            <--- Your ATEM Mini IP here"
+  - delay: 300
+    content: "\r\e[1;37mAtem Mini\e[0m IP: [192.168.2.240]: \e[0;37m192.1\e[0m           <--- Your ATEM Mini IP here"
+  - delay: 250
+    content: "\r\e[1;37mAtem Mini\e[0m IP: [192.168.2.240]: \e[0;37m192.16\e[0m          <--- Your ATEM Mini IP here"
+  - delay: 150
+    content: "\r\e[1;37mAtem Mini\e[0m IP: [192.168.2.240]: \e[0;37m192.168\e[0m         <--- Your ATEM Mini IP here"
+  - delay: 250
+    content: "\r\e[1;37mAtem Mini\e[0m IP: [192.168.2.240]: \e[0;37m192.168.\e[0m        <--- Your ATEM Mini IP here"
+  - delay: 250
+    content: "\r\e[1;37mAtem Mini\e[0m IP: [192.168.2.240]: \e[0;37m192.168.1\e[0m       <--- Your ATEM Mini IP here"
+  - delay: 300
+    content: "\r\e[1;37mAtem Mini\e[0m IP: [192.168.2.240]: \e[0;37m192.168.1.\e[0m      <--- Your ATEM Mini IP here"
+  - delay: 180
+    content: "\r\e[1;37mAtem Mini\e[0m IP: [192.168.2.240]: \e[0;37m192.168.1.2\e[0m     <--- Your ATEM Mini IP here"
+  - delay: 200
+    content: "\r\e[1;37mAtem Mini\e[0m IP: [192.168.2.240]: \e[0;37m192.168.1.24\e[0m    <--- Your ATEM Mini IP here"
+  - delay: 350
+    content: "\r\e[1;37mAtem Mini\e[0m IP: [192.168.2.240]: \e[0;37m192.168.1.240\e[0m   <--- Your ATEM Mini IP here"
+  - delay: 850
+    content: "\r\e[1;37mAtem Mini\e[0m IP: [192.168.2.240]: \e[0;37m192.168.1.240\e[0m                              \r"
+  - delay: 100
     content: "\r\nEnable WIFI:            [yes]:                 <--- I am not using WIFI"
-  - delay: 1000
+  - delay: 1250
     content: "\rEnable WIFI:            [yes]: \e[0;37mn\e[0m               <--- I am not using WIFI"
   - delay: 450
     content: "\rEnable WIFI:            [yes]: \e[0;37mno\e[0m              <--- I am not using WIFI"
@@ -464,4 +474,4 @@ records:
   - delay: 0
     content: "\r\n\e[0;32m    The ansible playbook will continue to run, and will reboot\r\n"
   - delay: 0
-    content: "    the PI with Music, Video, and Companion configured\e[0m\r\n"
+    content: "    the PI with Music, Video, and Companion configured for your \e[0m\e[1;97mATEM Mini\e[0m\r\n"
