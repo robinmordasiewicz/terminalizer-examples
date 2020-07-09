@@ -462,6 +462,6 @@ records:
   - delay: 450
     content: "TASK [Gathering Facts] *****************************************************\r\n"
   - delay: 0
-    content: "\r\n\e[0;32m   The ansible playbook will continue to run, and will reboot the PI4\r\n"
+    content: "\r\n\e[0;32m   The ansible playbook will continue to run, and will reboot the\r\n"
   - delay: 0
-    content: "   with Audio/Video players and Bitfocus Companion installed.\e[0m\r\n"
+    content: "   PI4 with Audio/Video players and Bitfocus Companion installed.\e[0m\r\n"
