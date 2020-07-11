@@ -23,7 +23,7 @@ config:
   # Explicitly set the number of rows
   # or use `auto` to take the current
   # number of rows of your shell
-  rows: 34
+  rows: 36
   
   # Amount of times to repeat GIF
   # If value is -1, play once
@@ -52,7 +52,7 @@ config:
     type: window
     title: Terminal
     style:
-      border: 0px black solid
+      border: 1px white solid
       backgroundColor: black
       boxShadow: none
       margin: 0px
@@ -112,7 +112,7 @@ config:
   
 records:
   - delay: 0
-    content: "\e[00;36m[robin@laptop]\e[00m:\e[00;34m~ $\e[00m\e[0;37m "
+    content: "\r\n\e[00;36m[robin@laptop]\e[00m:\e[00;34m~ $\e[00m\e[0;37m "
   - delay: 816
     content: s
   - delay: 105
